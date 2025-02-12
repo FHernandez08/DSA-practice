@@ -11,3 +11,8 @@ def check_duplicates(arr):
             duplicates.append(element)
         else:
             non_duplicates[element] = True
+            
+    print(duplicates)
+    print(non_duplicates)
+    
+check_duplicates(array)
