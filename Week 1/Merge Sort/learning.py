@@ -3,6 +3,8 @@ def merge_sort(arr):
         return arr
     
     mid = len(arr) // 2
+    
+    # where the array is divided in the middle
     left_arr = arr[:mid]
     right_arr = arr[mid:]
     
